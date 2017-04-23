@@ -1,12 +1,12 @@
 {
-  "name": "hello-react",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pavlo Matviienko",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
