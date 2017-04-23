@@ -1,4 +1,6 @@
 .idea/
 node_modules/
+public/bundle.js
 Будет удалено .idea/
 Будет удалено node_modules/
+Будет удалено public/bundle.js
