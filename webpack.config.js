@@ -7,6 +7,13 @@ module.exports = {
     resolve:{
         root: __dirname,
         alias:{
+            Main: 'app/components/Main.jsx',
+            Nav: 'app/components/Nav.jsx',
+            Weather: 'app/components/Weather.jsx',
+            WeatherForm: 'app/components/Weather/WeatherForm.jsx',
+            WeatherMessage: 'app/components/Weather/WeatherMessage.jsx',
+            About: 'app/components/About.jsx',
+            Examples: 'app/components/Examples.jsx'
         },
         extensions: ['','.js','.jsx']
     },
@@ -15,7 +22,7 @@ module.exports = {
             {
                 loader: 'babel-loader',
                 query: {
-                    presets: ['react', 'es2015']
+                    presets: ['react', 'es2015', 'stage-0']
                 },
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
